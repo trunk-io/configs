@@ -1,11 +1,13 @@
 version: 0.1
 cli:
-  version: 0.1.30-alpha
+  version: 0.1.31-alpha
   sha256:
-    darwin_x86_64: c2ac9d968affa242141465e722ab067e94571d962d91acdc870bb514ab198ea7
-    linux_x86_64: 293857476b37d46e83e96d6c066d2a5f19078b81df2da9a39b3b34b3f029a140
+    darwin_x86_64: 15f297b0657b615609adfd1a30b99a6210a6ff7c52dc8bdfeb0053a8aff7a9bc
+    linux_x86_64: 5ed59e39cd2f0f72008834073cec429689c88e480abbe89cc36340b75c648a9f
 lint:
   enabled:
+    - actionlint@1.6.4
     - gitleaks@7.6.1
     - markdownlint@0.29.0
     - prettier@2.4.1
+    - shfmt@3.4.0

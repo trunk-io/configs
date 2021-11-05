@@ -1,6 +1,9 @@
 # Configs
 
-Here are some simple and ultra-clean default linter configs you can benefit from!
+Here are some simple and ultra-clean default configs for linters, formatters, and more. Every
+character has been scrutinized to create the finest dotfiles in the galaxy. Enjoy 😎
+
+PRs are welcome!
 
 ## Three tips for successful linter configs
 
@@ -63,9 +66,11 @@ longer.
 Also, the config is yaml, but the `Checks` key takes a string which is a comma separated list
 instead of a yaml list. :( The comment blocks at the top describe what we've turned on/off and why.
 
-## What's the best way to run lots of linters fast?
+## What's the best way to run linters and formatters?
 
-[Trunk](https://trunk.io/) (invite-only → preview@trunk.io)
+[Trunk](https://trunk.io/) 🎉 ([docs](https://docs.trunk.io) •
+[vscode extension](https://marketplace.visualstudio.com/items?itemName=trunk.io) •
+[github action](https://github.com/trunk-io/trunk-action))
 
 ## Contributing
 
