@@ -1,6 +1,29 @@
-# Configs
+<!-- trunk-ignore(markdownlint/MD041) -->
+<p align="center">
+  <a href="https://docs.trunk.io">
+    <img height="128" src="https://static.trunk.io/assets/vscode_icon.png" />
+  </a>
+</p>
+<h2 align="center">Trunk Configs</h2>
+<p align="center">
+  <a href="https://trunk.io">
+    <img src="https://github.com/trunk-io/trunk-action/actions/workflows/pr.yaml/badge.svg"/>
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=Trunk.io">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/Trunk.io?logo=visualstudiocode"/>
+  </a>
+  <a href="https://slack.trunk.io">
+    <img src="https://img.shields.io/badge/slack-slack.trunk.io-blue?logo=slack"/>
+  </a>
+  <a href="https://docs.trunk.io">
+    <img src="https://img.shields.io/badge/docs.trunk.io-7f7fcc?label=docs&logo=readthedocs&labelColor=555555&logoColor=ffffff"/>
+  </a>
+</p>
 
-Here are some simple and ultra-clean default configs for linters, formatters, and more. Every
+> 🎉 Trunk is in beta. We'd appreciate your feedback - stop by the
+> [Trunk Community Slack](https://slack.trunk.io/) and let us know what you think. Thanks!
+
+Here are some **simple and ultra-clean default configs for linters, formatters**, and more. Every
 character has been scrutinized to create the finest dotfiles in the galaxy. Enjoy 😎
 
 PRs are welcome!

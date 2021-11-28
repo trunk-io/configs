@@ -1,3 +1,7 @@
-# Following source doesn't work in most setups
-disable=SC1090
-disable=SC1091
+enable=all
+
+# Source scripts relative to the script directory
+source-path=SCRIPTDIR
+
+# Re-enable when check is fixed to ignore UPPER_CASE_VARIABLES as the docs say it does, but it really doesn't
+disable=SC2154
