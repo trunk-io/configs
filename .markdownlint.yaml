@@ -1,5 +1,10 @@
-# Prettier-friendly minimal markdownlint config (turns off rules which prettier handles)
+# Autoformatter friendly markdownlint config (all formatting rules disabled)
 default: true
-MD013: false
-MD032: false
-MD033: false
+blank_lines: false
+bullet: false
+html: false
+indentation: false
+line_length: false
+spaces: false
+url: false
+whitespace: false
