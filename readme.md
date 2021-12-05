@@ -5,6 +5,7 @@
   </a>
 </p>
 <h2 align="center">Trunk Configs</h2>
+<h3 align="center">Clean default configs for linters, formatters, and more</h2>
 <p align="center">
   <a href="https://trunk.io">
     <img src="https://github.com/trunk-io/trunk-action/actions/workflows/pr.yaml/badge.svg"/>
@@ -42,7 +43,8 @@ setups.
 Sure, you can embed your eslint settings in `package.json` or your flake8 settings in `setup.cfg`,
 but please don't. It's just good separation of concerns. It's easy for other people to find the
 config options in standalone files, if you stop using a linter it's easy to delete the config, it's
-easy to look up the format of a config, everything is easier.
+easy to look up the format of a config or get editor autocompletion (they often have schemas on
+schemastore.org), everything is easier.
 
 ### 3. Put your linter configs at the root of your repo
 
@@ -61,8 +63,9 @@ Spend a little time now, reap the rewards forever.
 
 ### `.editorconfig`
 
-Some linters use the settings in `.editorconfig`. For example `shfmt` uses it to figure out
-indentation.
+Always have a `.editorconfig` file, not only for users of your repo using editors, but also some
+linters use the settings in `.editorconfig`. For example `shfmt` uses it to figure out indentation,
+and `prettier` will also respect it as a fallback to its own config (though that is undocumented).
 
 ### `.clang-format`
 
@@ -80,6 +83,13 @@ We turned off all the formatting categories because [black](https://github.com/p
 autoformatting. No one should be hearing about formatting issues one space at a time. This is a
 theme across many linters.
 
+Black itself has a black-compatible flake8 config
+[here](https://github.com/psf/black/blob/main/.flake8), however it keeps flake8 formatting errors
+_on_. If you've autoformatted with black, you won't have any flake8 errors with their config, but
+really you should be gating your CI on both black and flake8 (with [trunk](https://trunk.io/)), and
+it's much nicer to hear that you just need to autoformat your file with black, not hear about every
+missing space as a different lint error.
+
 ### `.clang-tidy`
 
 Clang-tidy has one of the more annoying configs around. Tidy has ~50 rules which are aliases of
@@ -88,6 +98,22 @@ longer.
 
 Also, the config is yaml, but the `Checks` key takes a string which is a comma separated list
 instead of a yaml list. :( The comment blocks at the top describe what we've turned on/off and why.
+
+### `.markdownlint.yaml`
+
+We turned off all formatting categories which are handled by prettier. If you use
+trunk](https://trunk.io/), you'll just see that your file needs to be autoformatted, not every
+instance of missing whitespace in your markdown.
+
+### `.shellcheckrc`
+
+This config turns on as much as possible, but relies on sourcing other scripts always relative to
+the current script's directory. If you want to turn off checking related to `source`, you could add:
+
+```text
+disable=SC1090
+disable=SC1091
+```
 
 ## What's the best way to run linters and formatters?
 
