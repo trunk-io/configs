@@ -21,7 +21,7 @@
   </a>
 </p>
 
-> 🎉 Trunk is in beta. We'd appreciate your feedback - stop by the
+> 🎉 [Trunk][trunk] is in beta. We'd appreciate your feedback - stop by the
 > [Trunk Community Slack](https://slack.trunk.io/) and let us know what you think. Thanks!
 
 Here are some **simple and ultra-clean default configs for linters, formatters, and more**. Every
@@ -86,7 +86,7 @@ theme across many linters.
 Black itself has a black-compatible flake8 config
 [here](https://github.com/psf/black/blob/main/.flake8), however it keeps flake8 formatting errors
 _on_. If you've autoformatted with black, you won't have any flake8 errors with their config, but
-really you should be gating your CI on both black and flake8 (with [trunk](https://trunk.io/)), and
+really you should be gating your CI on both black and flake8 (with [trunk]), and
 it's much nicer to hear that you just need to autoformat your file with black, not hear about every
 missing space as a different lint error.
 
@@ -102,7 +102,7 @@ instead of a yaml list. :( The comment blocks at the top describe what we've tur
 ### `.markdownlint.yaml`
 
 We turned off all formatting categories which are handled by prettier. If you use
-trunk](https://trunk.io/), you'll just see that your file needs to be autoformatted, not every
+[trunk], you'll just see that your file needs to be autoformatted, not every
 instance of missing whitespace in your markdown.
 
 ### `.shellcheckrc`
@@ -117,7 +117,7 @@ disable=SC1091
 
 ## What's the best way to run linters and formatters?
 
-[Trunk](https://trunk.io/) 🎉 ([docs](https://docs.trunk.io) •
+[Trunk][trunk] 🎉 ([docs](https://docs.trunk.io) •
 [vscode extension](https://marketplace.visualstudio.com/items?itemName=trunk.io) •
 [github action](https://github.com/trunk-io/trunk-action))
 
@@ -125,3 +125,5 @@ disable=SC1091
 
 Think there's a better setup for one of these linters? Put up a PR and let's see it! Also happy to
 see contributions for linters we haven't covered here.
+
+[trunk]: https://trunk.io/
