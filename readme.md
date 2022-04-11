@@ -114,7 +114,7 @@ disable=SC1091
 
 ### `.stylelintrc.yaml`
 
-This config turns on the standard scss config, which is a superset of the stnaic css config and
+This config turns on the standard scss config, which is a superset of the standard css config and
 compatible whether you use scss or not.
 
 Stylelint does require you to install plugins locally though:
