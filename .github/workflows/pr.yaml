@@ -1,5 +1,6 @@
 name: Pull Request
 on: pull_request
+
 concurrency:
   group: ${{ github.head_ref }}
   cancel-in-progress: true
@@ -13,11 +14,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Cache Linters/Formatters
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/trunk
-          key: trunk-${{ runner.os }}
-
       - name: Trunk Check
-        uses: trunk-io/trunk-action@v0.4.0-beta
+        uses: trunk-io/trunk-action@v1.0.0
