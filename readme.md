@@ -86,9 +86,9 @@ theme across many linters.
 Black itself has a black-compatible flake8 config
 [here](https://github.com/psf/black/blob/main/.flake8), however it keeps flake8 formatting errors
 _on_. If you've autoformatted with black, you won't have any flake8 errors with their config, but
-really you should be gating your CI on both black and flake8 (with [trunk]), and
-it's much nicer to hear that you just need to autoformat your file with black, not hear about every
-missing space as a different lint error.
+really you should be gating your CI on both black and flake8 (with [trunk]), and it's much nicer to
+hear that you just need to autoformat your file with black, not hear about every missing space as a
+different lint error.
 
 ### `.clang-tidy`
 
@@ -101,9 +101,9 @@ instead of a yaml list. :( The comment blocks at the top describe what we've tur
 
 ### `.markdownlint.yaml`
 
-We turned off all formatting categories which are handled by prettier. If you use
-[trunk], you'll just see that your file needs to be autoformatted, not every
-instance of missing whitespace in your markdown.
+We turned off all formatting categories which are handled by prettier. If you use [trunk], you'll
+just see that your file needs to be autoformatted, not every instance of missing whitespace in your
+markdown.
 
 ### `.shellcheckrc`
 
