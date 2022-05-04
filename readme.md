@@ -64,6 +64,30 @@ Always have a `.editorconfig` file, not only for users of your repo using editor
 linters use the settings in `.editorconfig`. For example `shfmt` uses it to figure out indentation,
 and `prettier` will also respect it as a fallback to its own config (though that is undocumented).
 
+### `.eslintrc.yaml`
+
+Open to contributions! It's really tricky to make a general eslint config that works for everyone,
+so we don't have one in this collection yet. Eslint's config structure is _the_ singularly most
+complicated linter config we've seen, and we've seen a lot. That said, there is one must have:
+
+Use `eslint-config-prettier` to disable any formatting rules eslint turns on:
+
+```bash
+npm install --save-dev eslint-config-prettier
+```
+
+In your eslint config:
+
+```yaml
+extends:
+  - eslint:recommended
+  ...
+  - prettier
+```
+
+This allows you to autoformat your code with prettier instead of seeing formatting issues one line
+at a time via eslint.
+
 ### `.clang-format`
 
 Clang-format can format a bunch of languages, but we prefer `prettier` on languages they both cover.
