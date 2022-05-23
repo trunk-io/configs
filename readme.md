@@ -155,6 +155,11 @@ Note: In `trunk.yaml` you'll want to enable both `stylelint-fmt` and `stylelint`
 automatically fixes what stylelint supports automatic fixes for, and runs via `trunk check` and
 `trunk fmt`. The latter is for issues without autofixes.
 
+### `svgo.config.js`
+
+This config is curated to _not break_ things, as opposed to minify maximally. Specifically it will
+leave embedded raster images, and both `viewbox` and `width`/`height` attributes in place.
+
 ## What's the best way to run linters and formatters?
 
 [Trunk][trunk] 🎉 ([docs](https://docs.trunk.io) •

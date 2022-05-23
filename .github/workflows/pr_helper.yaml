@@ -1,0 +1,21 @@
+name: Pull Request Labeler
+on: pull_request_target
+
+jobs:
+  label_pr:
+    name: Pull request labeler [linux]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/labeler@v4
+        with:
+          repo-token: ${{ github.token }}
+          configuration-path: .pr-labels.yaml
+          sync-labels: true
+
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ github.token }}
+          pr-message:
+            👋 Hi @${{ github.actor }}, welcome to Trunk. Congrats 🎉 on opening your first pull
+            request!!

@@ -1,0 +1,8 @@
+📃 docs:
+  - "**/*.md"
+
+🧶 repo configs:
+  - "*"
+
+🚥 ci:
+  - .github/**
