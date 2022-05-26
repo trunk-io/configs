@@ -160,6 +160,12 @@ automatically fixes what stylelint supports automatic fixes for, and runs via `t
 This config is curated to _not break_ things, as opposed to minify maximally. Specifically it will
 leave embedded raster images, and both `viewbox` and `width`/`height` attributes in place.
 
+### `.yamllint.yaml`
+
+Yamllint mostly has formatting rules without autofixes. As mentioned above, we recommend using
+autoformatters as opposed to linters which give formatting errors one space at a time. This config
+enables only select rules, and not any formatting rules which prettier handles automatically.
+
 ## What's the best way to run linters and formatters?
 
 [Trunk][trunk] 🎉 ([docs](https://docs.trunk.io) •
