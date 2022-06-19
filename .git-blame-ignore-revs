@@ -1,0 +1,6 @@
+# https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt
+
+# GitHub picks up on this file by default, but users need to set the following to get it locally:
+#   git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+# List of revs to ignore changes from when assigning git blame (such as autoformatting-only commits):
