@@ -1,5 +1,98 @@
 version: 0.1
 required_trunk_version: ">=1.7.1-beta.9"
+
+runtimes:
+  enabled:
+    - go@1.19.5
+    - node@18.12.1
+    - python@3.10.8
+    - ruby@3.1.3
+
 lint:
+  downloads:
+    - name: trunk-toolbox
+      # Our own internal alpha linter
+      downloads:
+        - os:
+            linux: unknown-linux-gnu
+            macos: apple-darwin
+          cpu:
+            x86_64: x86_64
+            arm_64: aarch64
+          url: https://github.com/trunk-io/toolbox/releases/download/${version}/trunk-toolbox-${version}-${cpu}-${os}.tar.gz
+  definitions:
+    - name: trunk-toolbox
+      download: trunk-toolbox
+      files: [ALL]
+      commands:
+        - output: sarif
+          run: trunk-toolbox --upstream ${upstream-ref}
+          success_codes: [0]
+          read_output_from: stdout
+          disable_upstream: true
+          target: .
+      environment:
+        - name: PATH
+          list: ["${linter}"]
+    # trufflehog should be batched, plugins haven't yet released
+    - name: trufflehog
+      commands:
+        - name: lint
+          batch: true
+  enabled:
+    - actionlint@1.6.23
+    - bandit@1.7.5
+    - black@23.3.0
+    - buf-lint@1.16.0
+    - buildifier@6.1.0
+    - cfnlint@0.76.1
+    - clang-format@15.0.6
+    - clang-tidy@15.0.6
+    - clippy@1.65.0
+    - eslint@8.37.0
+    - git-diff-check
+    - gitleaks@8.16.1
+    - isort@5.12.0
+    - markdownlint@0.33.0
+    - mypy@1.1.1
+    - oxipng@8.0.0
+    - prettier@2.8.7
+    - pylint@2.17.1
+    - renovate@35.28.0
+    - rubocop@1.39.0
+    - rustfmt@1.68.2
+    - semgrep@1.16.0
+    - ruff@0.0.260
+    - shellcheck@0.9.0
+    - shfmt@3.5.0
+    - sort-package-json@2.4.1
+    - sql-formatter@12.2.0
+    - stylelint@15.3.0
+    - svgo@3.0.2
+    - taplo@0.7.0
+    - trufflehog@3.31.3
+    - trunk-toolbox@0.0.0-sam.18
+    - yamllint@1.29.0
   exported_configs:
-    - configs: []
+    - configs:
+        - configs/.flake8
+        - configs/.hadolint.yaml
+        - configs/.isort.cfg
+        - configs/.markdownlint.yaml
+        - configs/.prettierrc.yaml
+        - configs/.pylintrc
+        - configs/.remarkrc.yaml
+        - configs/ruff.toml
+        - configs/rustfmt.toml
+        - configs/.shellcheckrc
+        - configs/.stylelintrc.yaml
+        - configs/svgo.config.js
+        - configs/.yamllint.yaml
+
+actions:
+  enabled:
+    - trunk-announce
+    - trunk-cache-prune
+    - trunk-upgrade-available
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
