@@ -1,0 +1,29 @@
+version: 0.1
+cli:
+  version: 1.7.1-beta.9
+plugins:
+  sources:
+    - id: trunk
+      ref: v0.0.15
+      uri: https://github.com/trunk-io/plugins
+    - id: configs
+      local: .
+lint:
+  enabled:
+    - actionlint@1.6.24
+    - git-diff-check
+    - gitleaks@8.16.2
+    - markdownlint@0.33.0
+    - prettier@2.8.7
+    - yamllint@1.30.0
+runtimes:
+  enabled:
+    - go@1.19.5
+    - node@18.12.1
+    - python@3.10.8
+actions:
+  enabled:
+    - trunk-announce
+    - trunk-check-pre-push
+    - trunk-fmt-pre-commit
+    - trunk-upgrade-available
