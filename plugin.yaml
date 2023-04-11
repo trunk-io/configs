@@ -1,6 +1,7 @@
 version: 0.1
 required_trunk_version: ">=1.7.1-beta.9"
 
+# Applicable linters and actions will run with these runtime versions
 runtimes:
   enabled:
     - go@1.19.5
@@ -34,6 +35,8 @@ lint:
       environment:
         - name: PATH
           list: ["${linter}"]
+
+  # By sourcing this plugin, repos will enable these linters
   enabled:
     - actionlint@1.6.23
     - bandit@1.7.5
@@ -67,6 +70,8 @@ lint:
     - taplo@0.7.0
     - trunk-toolbox@0.0.0-sam.18
     - yamllint@1.29.0
+
+  # Sourcing repos will have these configs available to applicable linters
   exported_configs:
     - configs:
         - configs/.flake8
@@ -83,6 +88,7 @@ lint:
         - configs/svgo.config.js
         - configs/.yamllint.yaml
 
+# By sourcing this plugin, repos will enable these actions
 actions:
   enabled:
     - trunk-announce
