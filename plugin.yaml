@@ -55,9 +55,9 @@ lint:
     - pylint@2.17.1
     - renovate@35.28.0
     - rubocop@1.39.0
+    - ruff@0.0.260
     - rustfmt@1.68.2
     - semgrep@1.16.0
-    - ruff@0.0.260
     - shellcheck@0.9.0
     - shfmt@3.5.0
     - sort-package-json@2.4.1
