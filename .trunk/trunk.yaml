@@ -8,6 +8,6 @@ plugins:
       uri: https://github.com/trunk-io/plugins
     - id: configs
       local: .
-lint:
-  # see plugin.yaml
-  enabled: []
+# see plugin.yaml
+# lint:
+#   enabled: []
