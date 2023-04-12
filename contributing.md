@@ -15,7 +15,7 @@ Config merging proceeds as follows:
 
 1. Plugins sourced in `.trunk/trunk.yaml` (and `.trunk/user.yaml`), in the order that they are
    sourced. The [`trunk`](https://github.com/trunk-io/plugins) plugin is implicitly sourced first.
-2. Your `.trunk/trunk.yaml` file, complete a cli version and any definitions or enables.
+2. Your `.trunk/trunk.yaml` file, complete with a cli version and any definitions or enables.
 3. Optionally, `.trunk/user.yaml`, a git-ignored file where users can provide their own overrides.
 
 Additionally, any files enumerated in the lint `exported_configs` section are symlinked from their
