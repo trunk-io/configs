@@ -1,0 +1,4 @@
+extends:
+  - stylelint-config-standard-scss
+  - stylelint-config-prettier
+  - stylelint-config-clean-order
