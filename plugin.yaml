@@ -44,8 +44,8 @@ lint:
     - buf-lint@1.16.0
     - buildifier@6.1.0
     - cfnlint@0.76.1
-    - clang-format@15.0.6
-    - clang-tidy@15.0.6
+    - clang-format@16.0.3
+    - clang-tidy@16.0.3
     - clippy@1.65.0
     - eslint@8.37.0
     - git-diff-check
