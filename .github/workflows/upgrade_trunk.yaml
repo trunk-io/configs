@@ -28,7 +28,7 @@ jobs:
           private_key: ${{ secrets.TRUNK_OPEN_PR_APP_PRIVATE_KEY }}
 
       - name: Trunk Upgrade
-        uses: trunk-io/action/upgrade@e5f1a3f123a2440f9cd28e036495a1c1f2a20568 # v1.1.1
+        uses: trunk-io/trunk-action/upgrade@e5f1a3f123a2440f9cd28e036495a1c1f2a20568 # v1.1.1
         with:
           arguments: --apply-to=plugin.yaml -n
           github-token: ${{ steps.generate-token.outputs.token }}
