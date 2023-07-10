@@ -45,7 +45,7 @@ lint:
     - buf-lint@1.23.1
     - buildifier@6.1.2
     - cfnlint@0.77.10
-    - checkov@2.3.312
+    - checkov@2.3.314
     - clang-format@16.0.3
     - clang-tidy@16.0.3
     - clippy@1.65.0
@@ -67,7 +67,7 @@ lint:
     - rubocop@1.39.0
     - ruff@0.0.277
     - rustfmt@1.68.2
-    - semgrep@1.30.0
+    - semgrep@1.31.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.5.0
