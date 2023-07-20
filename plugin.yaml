@@ -41,11 +41,11 @@ lint:
   enabled:
     - actionlint@1.6.25
     - bandit@1.7.5
-    - black@23.3.0
-    - buf-lint@1.23.1
+    - black@23.7.0
+    - buf-lint@1.24.0
     - buildifier@6.1.2
-    - cfnlint@0.77.10
-    - checkov@2.3.314
+    - cfnlint@0.78.1
+    - checkov@2.3.324
     - clang-format@16.0.3
     - clang-tidy@16.0.3
     - clippy@1.65.0
@@ -63,21 +63,21 @@ lint:
     - pragma-once
     - prettier@3.0.0
     - pylint@2.17.4
-    - renovate@36.1.9
+    - renovate@36.8.5
     - rubocop@1.39.0
-    - ruff@0.0.277
+    - ruff@0.0.278
     - rustfmt@1.68.2
-    - semgrep@1.31.0
+    - semgrep@1.32.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
-    - sort-package-json@2.5.0
+    - sort-package-json@2.5.1
     - sql-formatter@12.2.3
     - stylelint@15.10.1
     - svgo@3.0.2
     - taplo@0.7.0
     - terrascan@1.18.1
-    - trivy@0.43.0
-    - trufflehog@3.43.0
+    - trivy@0.43.1
+    - trufflehog@3.44.0
     - trunk-toolbox@0.0.0-pat.19
     - yamllint@1.32.0
 
