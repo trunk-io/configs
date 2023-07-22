@@ -1,11 +1,8 @@
-# Trunk Plugin (example, and used internally for trunk repos)
+# Opinionated Trunk Config
 
 [![docs](https://img.shields.io/badge/-docs-darkgreen?logo=readthedocs&logoColor=ffffff)][docs]
 [![slack](https://img.shields.io/badge/-slack-611f69?logo=slack)][slack]
 [![vscode](https://img.shields.io/visual-studio-marketplace/i/trunk.io?color=0078d7&label=vscode&logo=visualstudiocode)][vscode]
-
-> 🎉 [Trunk][trunk] is a constantly evolving product. We'd appreciate your feedback - stop by the
-> [Trunk Community Slack](https://slack.trunk.io/) and let us know what you think. Thanks!
 
 Here are the default **configuration files, linters, and actions** that we turn on in all of our own
 repositories during development. Every setting has been carefully scrutinized to optimize our own
