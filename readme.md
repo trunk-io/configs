@@ -1,12 +1,12 @@
-# Opinionated Trunk.io Config
+# Opinionated Trunk.io Plugin
 
 [![docs](https://img.shields.io/badge/-docs-darkgreen?logo=readthedocs&logoColor=ffffff)][docs]
 [![slack](https://img.shields.io/badge/-slack-611f69?logo=slack)][slack]
 [![vscode](https://img.shields.io/visual-studio-marketplace/i/trunk.io?color=0078d7&label=vscode&logo=visualstudiocode)][vscode]
 
-Here are the default **configuration files, linters, and actions** that we turn on in all of our own
-repositories during development. Every setting has been carefully scrutinized to optimize our own
-workflow. Feel free to import them for your own use by running:
+This plugin has default **configuration files, linters, and actions** that we turn on in all of our
+own repositories during development. Every setting has been carefully scrutinized to optimize our
+own workflow. Feel free to import them for your own use by running:
 
 ```bash
 trunk plugins add https://github.com/trunk-io/configs
