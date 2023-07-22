@@ -1,4 +1,4 @@
-# Opinionated Trunk Config
+# Opinionated Trunk.io Config
 
 [![docs](https://img.shields.io/badge/-docs-darkgreen?logo=readthedocs&logoColor=ffffff)][docs]
 [![slack](https://img.shields.io/badge/-slack-611f69?logo=slack)][slack]
@@ -20,7 +20,6 @@ name to `.trunk/configs`.
 For more information about [plugins](https://github.com/trunk-io/plugins) and Trunk config merging,
 check out our [docs][docs].
 
-[trunk]: https://trunk.io
 [slack]: https://slack.trunk.io
 [docs]: https://docs.trunk.io
 [vscode]: https://marketplace.visualstudio.com/items?itemName=Trunk.io
