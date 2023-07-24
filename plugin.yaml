@@ -42,14 +42,14 @@ lint:
     - actionlint@1.6.25
     - bandit@1.7.5
     - black@23.7.0
-    - buf-lint@1.24.0
+    - buf-lint@1.25.0
     - buildifier@6.1.2
-    - cfnlint@0.78.1
-    - checkov@2.3.324
+    - cfnlint@0.78.2
+    - checkov@2.3.335
     - clang-format@16.0.3
     - clang-tidy@16.0.3
     - clippy@1.65.0
-    - eslint@8.44.0
+    - eslint@8.45.0
     - git-diff-check
     - gofmt@1.20.4
     - golangci-lint@1.53.3
@@ -58,23 +58,23 @@ lint:
     - markdownlint@0.35.0
     - mypy@1.4.1
     - nancy@1.0.42
-    - osv-scanner@1.3.4
+    - osv-scanner@1.3.6
     - oxipng@8.0.0
     - pragma-once
     - prettier@3.0.0
     - pylint@2.17.4
-    - renovate@36.8.5
+    - renovate@36.18.4
     - rubocop@1.39.0
-    - ruff@0.0.278
+    - ruff@0.0.279
     - rustfmt@1.68.2
-    - semgrep@1.32.0
+    - semgrep@1.33.1
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.5.1
     - sql-formatter@12.2.3
-    - stylelint@15.10.1
+    - stylelint@15.10.2
     - svgo@3.0.2
-    - taplo@0.7.0
+    - taplo@0.8.1
     - terrascan@1.18.1
     - trivy@0.43.1
     - trufflehog@3.44.0
