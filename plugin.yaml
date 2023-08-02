@@ -42,7 +42,7 @@ lint:
     - actionlint@1.6.25
     - bandit@1.7.5
     - black@23.7.0
-    - buf-lint@1.25.0
+    - buf-lint@1.25.1
     - buildifier@6.1.2
     - cfnlint@0.79.4
     - checkov@2.3.347
