@@ -48,7 +48,7 @@ lint:
     - checkov@2.4.1
     - clang-format@16.0.3
     - clang-tidy@16.0.3
-    - clippy@1.65.0
+    - clippy@1.71.1
     - eslint@8.47.0
     - git-diff-check
     - gofmt@1.20.4
