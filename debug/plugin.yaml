@@ -1,0 +1,5 @@
+version: 0.1
+actions:
+  definitions:
+    - id: bar
+      run: echo "bar"

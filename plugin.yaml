@@ -116,10 +116,6 @@ actions:
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
 
-  definitions:
-    - id: bar
-      run: echo "bar"
-
 tools:
   enabled:
     - gh@2.31.0
