@@ -10,5 +10,9 @@ plugins:
     - id: configs
       local: .
 # see plugin.yaml for enabled linters
-# lint:
-#   enabled: []
+lint:
+  enabled:
+    - foo
+actions:
+  enabled:
+    - bar
