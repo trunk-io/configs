@@ -1,6 +1,6 @@
 version: 0.1
 cli:
-  version: 1.13.0
+  version: 1.14.1-beta.2
 api:
   address: api.trunk-staging.io:8443
   org: trunk-staging-org
