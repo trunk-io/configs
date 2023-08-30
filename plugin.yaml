@@ -79,7 +79,7 @@ lint:
     - terrascan@1.18.3
     - trivy@0.44.1
     - trufflehog@3.48.0
-    - trunk-toolbox@0.0.0-pat.19
+    - trunk-toolbox@0.0.1
     - yamllint@1.32.0
 
   # Sourcing repos will have these configs available to applicable linters
