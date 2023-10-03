@@ -1,6 +1,9 @@
 version: 0.1
 cli:
   version: 1.16.0
+runtimes:
+  enabled:
+    - python@3.10.8
 plugins:
   sources:
     - id: trunk
