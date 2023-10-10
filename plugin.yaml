@@ -45,7 +45,7 @@ lint:
     - buf-lint@1.27.0
     - buildifier@6.3.3
     - cfnlint@0.80.4
-    - checkov@2.5.4
+    - checkov@2.5.6
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -58,12 +58,12 @@ lint:
     - markdownlint@0.37.0
     - mypy@1.5.1
     - nancy@1.0.42
-    - osv-scanner@1.4.0
+    - osv-scanner@1.4.1
     - oxipng@8.0.0
     - pragma-once
     - prettier@3.0.3
     - prisma@5.4.1
-    - pylint@3.0.0
+    - pylint@3.0.1
     - renovate@37.6.2
     - rubocop@1.39.0
     - ruff@0.0.292
