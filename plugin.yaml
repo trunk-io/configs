@@ -42,10 +42,10 @@ lint:
     - actionlint@1.6.26
     - bandit@1.7.5
     - black@23.9.1
-    - buf-lint@1.27.1
+    - buf-lint@1.27.2
     - buildifier@6.3.3
-    - cfnlint@0.83.0
-    - checkov@3.0.12
+    - cfnlint@0.83.1
+    - checkov@3.0.16
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -58,7 +58,7 @@ lint:
     - markdownlint@0.37.0
     - mypy@1.6.1
     - nancy@1.0.45
-    - osv-scanner@1.4.2
+    - osv-scanner@1.4.3
     - oxipng@9.0.0
     - pragma-once
     - prettier@3.0.3
@@ -72,13 +72,13 @@ lint:
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.6.0
-    - sql-formatter@13.0.2
+    - sql-formatter@13.0.4
     - stylelint@15.11.0
     - svgo@3.0.2
     - taplo@0.8.1
     - terrascan@1.18.3
-    - trivy@0.46.0
-    - trufflehog@3.60.4
+    - trivy@0.46.1
+    - trufflehog@3.62.1
     - trunk-toolbox@0.0.1
     - yamllint@1.32.0
 
@@ -111,5 +111,5 @@ actions:
 
 tools:
   enabled:
-    - gh@2.37.0
+    - gh@2.38.0
     - gt@0.20.35
