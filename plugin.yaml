@@ -45,7 +45,7 @@ lint:
     - buf-lint@1.27.2
     - buildifier@6.3.3
     - cfnlint@0.83.1
-    - checkov@3.0.16
+    - checkov@3.0.19
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
