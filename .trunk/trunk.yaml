@@ -1,14 +1,17 @@
 version: 0.1
 cli:
-  version: 1.16.0
+  version: 1.17.1
 plugins:
   sources:
     - id: trunk
       uri: https://github.com/trunk-io/plugins
-      ref: v1.2.3
+      ref: v1.2.6
 
     - id: configs
       local: .
 # see plugin.yaml for enabled linters
 # lint:
 #   enabled: []
+tools:
+  enabled:
+    - gt@0.20.35
