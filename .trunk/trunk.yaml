@@ -12,3 +12,6 @@ plugins:
 # see plugin.yaml for enabled linters
 # lint:
 #   enabled: []
+tools:
+  enabled:
+    - gt@0.20.35
