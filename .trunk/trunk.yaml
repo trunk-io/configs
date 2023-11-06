@@ -12,6 +12,3 @@ plugins:
 # see plugin.yaml for enabled linters
 # lint:
 #   enabled: []
-lint:
-  enabled:
-    - markdown-link-check@3.11.2
