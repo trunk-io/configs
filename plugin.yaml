@@ -57,7 +57,7 @@ lint:
     - isort@5.12.0
     - markdownlint@0.37.0
     - markdown-link-check@3.11.2
-    - mypy@1.7.0
+    - mypy@1.7.1
     - nancy@1.0.45
     - osv-scanner@1.4.3
     - oxipng@9.0.0
@@ -69,7 +69,7 @@ lint:
     - rubocop@1.39.0
     - ruff@0.1.6
     - rustfmt@1.68.2
-    - semgrep@1.50.0
+    - semgrep@1.51.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.6.0
@@ -77,7 +77,7 @@ lint:
     - stylelint@15.11.0
     - svgo@3.0.4
     - taplo@0.8.1
-    - terrascan@1.18.3
+    - terrascan@1.18.4
     - trivy@0.47.0
     - trufflehog@3.63.2-rc0
     - trunk-toolbox@0.0.1
@@ -112,5 +112,5 @@ actions:
 
 tools:
   enabled:
-    - gh@2.39.1
+    - gh@2.39.2
     - gt@0.20.35
