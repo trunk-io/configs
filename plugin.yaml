@@ -75,9 +75,9 @@ lint:
     - sort-package-json@2.6.0
     - sql-formatter@14.0.0
     - stylelint@15.11.0
-    - svgo@3.0.4
+    - svgo@3.0.5
     - taplo@0.8.1
-    - terrascan@1.18.4
+    - terrascan@1.18.5
     - trivy@0.47.0
     - trufflehog@3.63.2-rc0
     - trunk-toolbox@0.0.1
