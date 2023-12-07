@@ -12,7 +12,3 @@ plugins:
 # see plugin.yaml for enabled linters
 # lint:
 #   enabled: []
-lint:
-  enabled:
-    - trufflehog@3.63.2
-  disabled:

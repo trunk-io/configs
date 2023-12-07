@@ -79,7 +79,7 @@ lint:
     - taplo@0.8.1
     - terrascan@1.18.5
     - trivy@0.47.0
-    - trufflehog@3.63.2-rc0
+    - trufflehog@3.63.2
     - trunk-toolbox@0.0.1
     - yamllint@1.33.0
 
