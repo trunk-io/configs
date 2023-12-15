@@ -112,5 +112,5 @@ actions:
 
 tools:
   enabled:
-    - gh@2.40.0
-    - gt@1.0.10
+    - gh@2.40.1
+    - gt@1.0.11
