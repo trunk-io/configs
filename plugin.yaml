@@ -40,46 +40,46 @@ lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
     - actionlint@1.6.26
-    - bandit@1.7.5
-    - black@23.9.1
+    - bandit@1.7.6
+    - black@23.12.0
     - buf-lint@1.28.1
     - buildifier@6.4.0
-    - cfnlint@0.83.4
-    - checkov@3.1.38
+    - cfnlint@0.83.6
+    - checkov@3.1.40
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
-    - eslint@8.54.0
+    - eslint@8.56.0
     - git-diff-check
     - gofmt@1.20.4
     - golangci-lint@1.55.2
     - hadolint@2.12.0
-    - isort@5.12.0
-    - markdownlint@0.37.0
+    - isort@5.13.2
+    - markdownlint@0.38.0
     - markdown-link-check@3.11.2
     - mypy@1.7.1
     - nancy@1.0.45
     - osv-scanner@1.5.0
     - oxipng@9.0.0
     - pragma-once
-    - prettier@3.1.0
-    - prisma@5.6.0
-    - pylint@3.0.2
-    - renovate@37.87.2
+    - prettier@3.1.1
+    - prisma@5.7.1
+    - pylint@3.0.3
+    - renovate@37.105.1
     - rubocop@1.39.0
-    - ruff@0.1.7
+    - ruff@0.1.8
     - rustfmt@1.68.2
-    - semgrep@1.52.0
+    - semgrep@1.54.1
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.6.0
-    - sql-formatter@14.0.0
-    - stylelint@15.11.0
-    - svgo@3.0.5
+    - sql-formatter@15.0.2
+    - stylelint@16.0.2
+    - svgo@3.1.0
     - taplo@0.8.1
-    - terrascan@1.18.5
-    - trivy@0.48.0
-    - trufflehog@3.63.2
+    - terrascan@1.18.9
+    - trivy@0.48.1
+    - trufflehog@3.63.5
     - trunk-toolbox@0.0.1
     - yamllint@1.33.0
 
@@ -113,4 +113,4 @@ actions:
 tools:
   enabled:
     - gh@2.40.1
-    - gt@1.0.11
+    - gt@1.0.13
