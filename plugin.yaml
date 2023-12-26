@@ -45,7 +45,7 @@ lint:
     - buf-lint@1.28.1
     - buildifier@6.4.0
     - cfnlint@0.83.6
-    - checkov@3.1.40
+    - checkov@3.1.42
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -57,7 +57,7 @@ lint:
     - isort@5.13.2
     - markdownlint@0.38.0
     - markdown-link-check@3.11.2
-    - mypy@1.7.1
+    - mypy@1.8.0
     - nancy@1.0.45
     - osv-scanner@1.5.0
     - oxipng@9.0.0
@@ -65,9 +65,9 @@ lint:
     - prettier@3.1.1
     - prisma@5.7.1
     - pylint@3.0.3
-    - renovate@37.105.1
+    - renovate@37.107.0
     - rubocop@1.39.0
-    - ruff@0.1.8
+    - ruff@0.1.9
     - rustfmt@1.68.2
     - semgrep@1.54.1
     - shellcheck@0.9.0
@@ -77,7 +77,7 @@ lint:
     - stylelint@16.0.2
     - svgo@3.1.0
     - taplo@0.8.1
-    - terrascan@1.18.9
+    - terrascan@1.18.11
     - trivy@0.48.1
     - trufflehog@3.63.5
     - trunk-toolbox@0.0.1
