@@ -45,7 +45,7 @@ lint:
     - buf-lint@1.28.1
     - buildifier@6.4.0
     - cfnlint@0.83.7
-    - checkov@3.1.46
+    - checkov@3.1.51
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -65,17 +65,17 @@ lint:
     - prettier@3.1.1
     - prisma@5.7.1
     - pylint@3.0.3
-    - renovate@37.111.0
+    - renovate@37.120.0
     - rubocop@1.39.0
-    - ruff@0.1.9
+    - ruff@0.1.11
     - rustfmt@1.68.2
-    - semgrep@1.54.3
+    - semgrep@1.55.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.6.0
     - sql-formatter@15.0.2
     - stylelint@16.1.0
-    - svgo@3.1.0
+    - svgo@3.2.0
     - taplo@0.8.1
     - terrascan@1.18.11
     - trivy@0.48.1
@@ -113,4 +113,4 @@ actions:
 tools:
   enabled:
     - gh@2.40.1
-    - gt@1.0.13
+    - gt@1.0.14
