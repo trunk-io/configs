@@ -100,7 +100,7 @@ lint:
         - configs/rustfmt.toml
         - configs/.shellcheckrc
         - configs/.sqlfluff
-        - configs/.stylelintrc.yaml
+        - configs/.stylelintrc.js
         - configs/svgo.config.js
         - configs/.yamllint.yaml
 
