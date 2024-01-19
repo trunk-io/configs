@@ -44,8 +44,8 @@ lint:
     - black@23.12.1
     - buf-lint@1.28.1
     - buildifier@6.4.0
-    - cfnlint@0.83.8
-    - checkov@3.1.57
+    - cfnlint@0.84.0
+    - checkov@3.1.65
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -59,15 +59,15 @@ lint:
     - markdown-link-check@3.11.2
     - mypy@1.8.0
     - nancy@1.0.45
-    - osv-scanner@1.5.0
+    - osv-scanner@1.6.1
     - oxipng@9.0.0
     - pragma-once
-    - prettier@3.1.1
-    - prisma@5.8.0
+    - prettier@3.2.4
+    - prisma@5.8.1
     - pylint@3.0.3
-    - renovate@37.129.1
+    - renovate@37.140.0
     - rubocop@1.39.0
-    - ruff@0.1.12
+    - ruff@0.1.13
     - rustfmt@1.68.2
     - semgrep@1.56.0
     - shellcheck@0.9.0
@@ -79,7 +79,7 @@ lint:
     - taplo@0.8.1
     - terrascan@1.18.11
     - trivy@0.48.3
-    - trufflehog@3.63.8
+    - trufflehog@3.63.10
     - trunk-toolbox@0.0.1
     - yamllint@1.33.0
 
@@ -112,5 +112,5 @@ actions:
 
 tools:
   enabled:
-    - gh@2.42.0
-    - gt@1.0.14
+    - gh@2.42.1
+    - gt@1.1.2
