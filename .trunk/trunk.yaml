@@ -10,5 +10,7 @@ plugins:
     - id: configs
       local: .
 # see plugin.yaml for enabled linters
-# lint:
+lint:
+  disabled:
+    - eslint
 #   enabled: []
