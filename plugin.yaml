@@ -40,12 +40,12 @@ lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
     - actionlint@1.6.26
-    - bandit@1.7.6
+    - bandit@1.7.7
     - black@23.12.1
-    - buf-lint@1.28.1
+    - buf-lint@1.29.0
     - buildifier@6.4.0
     - cfnlint@0.84.0
-    - checkov@3.1.67
+    - checkov@3.1.70
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -65,16 +65,16 @@ lint:
     - prettier@3.2.4
     - prisma@5.8.1
     - pylint@3.0.3
-    - renovate@37.140.5
+    - renovate@37.152.0
     - rubocop@1.39.0
-    - ruff@0.1.13
+    - ruff@0.1.14
     - rustfmt@1.68.2
-    - semgrep@1.57.0
+    - semgrep@1.58.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.6.0
-    - sql-formatter@15.0.2
-    - stylelint@16.1.0:
+    - sql-formatter@15.1.2
+    - stylelint@16.2.0:
         packages:
           - stylelint-config-standard-scss@13.0.0
           - stylelint-config-clean-order@5.4.0
@@ -82,7 +82,7 @@ lint:
     - taplo@0.8.1
     - terrascan@1.18.11
     - trivy@0.48.3
-    - trufflehog@3.63.10
+    - trufflehog@3.64.0
     - trunk-toolbox@0.0.1
     - yamllint@1.33.0
 
