@@ -41,11 +41,11 @@ lint:
   enabled:
     - actionlint@1.6.26
     - bandit@1.7.7
-    - black@23.12.1
+    - black@24.1.1
     - buf-lint@1.29.0
     - buildifier@6.4.0
-    - cfnlint@0.84.0
-    - checkov@3.1.70
+    - cfnlint@0.85.0
+    - checkov@3.2.3
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -55,34 +55,34 @@ lint:
     - golangci-lint@1.55.2
     - hadolint@2.12.0
     - isort@5.13.2
-    - markdownlint@0.38.0
+    - markdownlint@0.39.0
     - markdown-link-check@3.11.2
     - mypy@1.8.0
     - nancy@1.0.45
-    - osv-scanner@1.6.1
+    - osv-scanner@1.6.2
     - oxipng@9.0.0
     - pragma-once
     - prettier@3.2.4
-    - prisma@5.8.1
+    - prisma@5.9.0
     - pylint@3.0.3
-    - renovate@37.152.0
+    - renovate@37.165.0
     - rubocop@1.39.0
-    - ruff@0.1.14
+    - ruff@0.1.15
     - rustfmt@1.68.2
-    - semgrep@1.58.0
+    - semgrep@1.59.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
-    - sort-package-json@2.6.0
-    - sql-formatter@15.1.2
+    - sort-package-json@2.7.0
+    - sql-formatter@15.2.0
     - stylelint@16.2.0:
         packages:
           - stylelint-config-standard-scss@13.0.0
-          - stylelint-config-clean-order@5.4.0
+          - stylelint-config-clean-order@5.4.1
     - svgo@3.2.0
     - taplo@0.8.1
     - terrascan@1.18.11
     - trivy@0.48.3
-    - trufflehog@3.64.0
+    - trufflehog@3.66.3
     - trunk-toolbox@0.0.1
     - yamllint@1.33.0
 
@@ -115,5 +115,5 @@ actions:
 
 tools:
   enabled:
-    - gh@2.42.1
+    - gh@2.43.1
     - gt@1.1.2
