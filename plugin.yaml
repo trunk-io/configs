@@ -17,8 +17,8 @@ lint:
     - black@24.2.0
     - buf-lint@1.29.0
     - buildifier@6.4.0
-    - cfnlint@0.85.1
-    - checkov@3.2.21
+    - cfnlint@0.85.2
+    - checkov@3.2.23
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -36,16 +36,16 @@ lint:
     - oxipng@9.0.0
     - pragma-once
     - prettier@3.2.5
-    - prisma@5.9.1
+    - prisma@5.10.2
     - pylint@3.0.3
-    - renovate@37.192.2
+    - renovate@37.206.1
     - rubocop@1.39.0
-    - ruff@0.2.1
+    - ruff@0.2.2
     - rustfmt@1.68.2
-    - semgrep@1.61.0
+    - semgrep@1.61.1
     - shellcheck@0.9.0
     - shfmt@3.6.0
-    - sort-package-json@2.7.0
+    - sort-package-json@2.8.0
     - sql-formatter@15.2.0
     - stylelint@16.2.1:
         packages:
@@ -55,9 +55,9 @@ lint:
     - taplo@0.8.1
     - terrascan@1.18.11
     - trivy@0.49.1
-    - trufflehog@3.67.6
+    - trufflehog@3.67.7
     - trunk-toolbox@0.2.0
-    - yamllint@1.35.0
+    - yamllint@1.35.1
 
   # Sourcing repos will have these configs available to applicable linters
   exported_configs:
@@ -89,4 +89,4 @@ actions:
 tools:
   enabled:
     - gh@2.44.1
-    - gt@1.1.5
+    - gt@1.2.3
