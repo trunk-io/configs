@@ -12,13 +12,13 @@ runtimes:
 lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
-    - actionlint@1.6.26
+    - actionlint@1.6.27
     - bandit@1.7.7
     - black@24.2.0
     - buf-lint@1.29.0
     - buildifier@6.4.0
-    - cfnlint@0.85.2
-    - checkov@3.2.24
+    - cfnlint@0.85.3
+    - checkov@3.2.28
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -37,12 +37,12 @@ lint:
     - pragma-once
     - prettier@3.2.5
     - prisma@5.10.2
-    - pylint@3.0.3
-    - renovate@37.210.0
+    - pylint@3.1.0
+    - renovate@37.220.1
     - rubocop@1.39.0
     - ruff@0.2.2
     - rustfmt@1.68.2
-    - semgrep@1.62.0
+    - semgrep@1.63.0
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - sort-package-json@2.8.0
@@ -53,9 +53,9 @@ lint:
           - stylelint-config-clean-order@5.4.1
     - svgo@3.2.0
     - taplo@0.8.1
-    - terrascan@1.18.11
+    - terrascan@1.18.12
     - trivy@0.49.1
-    - trufflehog@3.68.0
+    - trufflehog@3.68.3
     - trunk-toolbox@0.2.0
     - yamllint@1.35.1
 
