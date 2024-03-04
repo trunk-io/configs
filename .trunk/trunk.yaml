@@ -1,11 +1,11 @@
 version: 0.1
 cli:
-  version: 1.20.0
+  version: 1.20.1
 plugins:
   sources:
     - id: trunk
       uri: https://github.com/trunk-io/plugins
-      ref: v1.4.3
+      ref: v1.4.4
 
     - id: configs
       local: .
