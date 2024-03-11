@@ -15,7 +15,7 @@ lint:
     - actionlint@1.6.27
     - bandit@1.7.7
     - black@24.2.0
-    - buf-lint@1.29.0
+    - buf-lint@1.30.0
     - buildifier@6.4.0
     - cfnlint@0.86.0
     - checkov@3.2.32
@@ -31,19 +31,19 @@ lint:
     - markdownlint@0.39.0
     - markdown-link-check@3.11.2
     - mypy@1.8.0
-    - nancy@1.0.45
+    - nancy@1.0.46
     - osv-scanner@1.6.2
     - oxipng@9.0.0
     - pragma-once
     - prettier@3.2.5
     - prisma@5.10.2
     - pylint@3.1.0
-    - renovate@37.230.0
+    - renovate@37.231.2
     - rubocop@1.39.0
     - ruff@0.3.1
     - rustfmt@1.68.2
     - semgrep@1.64.0
-    - shellcheck@0.9.0
+    - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@2.8.0
     - sql-formatter@15.2.0
