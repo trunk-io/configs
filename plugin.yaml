@@ -17,7 +17,7 @@ lint:
     - black@24.3.0
     - buf-lint@1.30.1
     - buildifier@7.1.0
-    - cfnlint@0.86.1
+    - cfnlint@0.86.2
     - checkov@3.2.53
     - clang-format@17.0.1
     - clang-tidy@17.0.1
@@ -36,9 +36,9 @@ lint:
     - oxipng@9.0.0
     - pragma-once
     - prettier@3.2.5
-    - prisma@5.12.0
+    - prisma@5.12.1
     - pylint@3.1.0
-    - renovate@37.279.0
+    - renovate@37.279.4
     - rubocop@1.39.0
     - ruff@0.3.5
     - rustfmt@1.68.2
@@ -89,4 +89,4 @@ actions:
 tools:
   enabled:
     - gh@2.47.0
-    - gt@1.2.8
+    - gt@1.3.2
