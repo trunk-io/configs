@@ -14,7 +14,7 @@ lint:
   enabled:
     - actionlint@1.6.27
     - bandit@1.7.8
-    - black@24.4.1
+    - black@24.4.2
     - buf-lint@1.31.0
     - buildifier@7.1.1
     - cfnlint@0.86.4
@@ -38,9 +38,9 @@ lint:
     - prettier@3.2.5
     - prisma@5.13.0
     - pylint@3.1.0
-    - renovate@37.322.0
+    - renovate@37.324.0
     - rubocop@1.39.0
-    - ruff@0.4.1
+    - ruff@0.4.2
     - rustfmt@1.68.2
     - semgrep@1.70.0
     - shellcheck@0.10.0
