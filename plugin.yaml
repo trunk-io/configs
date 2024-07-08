@@ -17,8 +17,8 @@ lint:
     - black@24.4.2
     - buf-lint@1.34.0
     - buildifier@7.1.2
-    - cfnlint@1.4.2
-    - checkov@3.2.156
+    - cfnlint@1.5.0
+    - checkov@3.2.174
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -37,8 +37,8 @@ lint:
     - pragma-once
     - prettier@3.3.2
     - prisma@5.16.1
-    - pylint@3.2.4
-    - renovate@37.420.1
+    - pylint@3.2.5
+    - renovate@37.424.1
     - rubocop@1.39.0
     - ruff@0.5.0
     - rustfmt@1.68.2
@@ -50,7 +50,7 @@ lint:
     - stylelint@16.6.1:
         packages:
           - stylelint-config-standard-scss@13.1.0
-          - stylelint-config-clean-order@6.0.0
+          - stylelint-config-clean-order@6.1.0
     - svgo@3.3.2
     - taplo@0.8.1
     - terrascan@1.19.1
@@ -89,4 +89,4 @@ actions:
 tools:
   enabled:
     - gh@2.52.0
-    - gt@1.3.9
+    - gt@1.3.10
