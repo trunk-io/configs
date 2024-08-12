@@ -17,7 +17,7 @@ lint:
     - black@24.8.0
     - buf-lint@1.31.0!
     - buildifier@7.1.2
-    - cfnlint@1.9.5
+    - cfnlint@1.9.6
     - checkov@3.2.219
     - clang-format@17.0.1
     - clang-tidy@17.0.1
@@ -38,9 +38,9 @@ lint:
     - prettier@3.3.3
     - prisma@5.18.0
     - pylint@3.2.6
-    - renovate@38.21.4
+    - renovate@38.23.2
     - rubocop@1.39.0
-    - ruff@0.5.6
+    - ruff@0.5.7
     - rustfmt@1.68.2
     - semgrep@1.84.1
     - shellcheck@0.10.0
