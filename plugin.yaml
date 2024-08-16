@@ -17,15 +17,15 @@ lint:
     - black@24.8.0
     - buf-lint@1.31.0!
     - buildifier@7.1.2
-    - cfnlint@1.9.6
-    - checkov@3.2.219
+    - cfnlint@1.10.1
+    - checkov@3.2.225
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
     - eslint@8.56.0
     - git-diff-check
     - gofmt@1.20.4
-    - golangci-lint@1.59.1
+    - golangci-lint@1.60.1
     - hadolint@2.12.0
     - isort@5.13.2
     - markdownlint@0.41.0
@@ -38,7 +38,7 @@ lint:
     - prettier@3.3.3
     - prisma@5.18.0
     - pylint@3.2.6
-    - renovate@38.23.2
+    - renovate@38.33.0
     - rubocop@1.39.0
     - ruff@0.5.7
     - rustfmt@1.68.2
@@ -46,7 +46,7 @@ lint:
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@2.10.0
-    - sql-formatter@15.3.2
+    - sql-formatter@15.4.0
     - stylelint@16.8.1:
         packages:
           - stylelint-config-standard-scss@13.1.0
@@ -55,7 +55,7 @@ lint:
     - taplo@0.9.3
     - terrascan@1.19.1
     - trivy@0.54.1
-    - trufflehog@3.81.7
+    - trufflehog@3.81.8
     - trunk-toolbox@0.3.2
     - yamllint@1.35.1
 
