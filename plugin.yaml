@@ -17,8 +17,8 @@ lint:
     - black@24.8.0
     - buf-lint@1.31.0!
     - buildifier@7.1.2
-    - cfnlint@1.10.1
-    - checkov@3.2.225
+    - cfnlint@1.10.2
+    - checkov@3.2.228
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -38,16 +38,16 @@ lint:
     - prettier@3.3.3
     - prisma@5.18.0
     - pylint@3.2.6
-    - renovate@38.33.0
+    - renovate@38.37.1
     - rubocop@1.39.0
-    - ruff@0.5.7
+    - ruff@0.6.0
     - rustfmt@1.68.2
-    - semgrep@1.84.1
+    - semgrep@1.85.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@2.10.0
     - sql-formatter@15.4.0
-    - stylelint@16.8.1:
+    - stylelint@16.8.2:
         packages:
           - stylelint-config-standard-scss@13.1.0
           - stylelint-config-clean-order@6.1.0
@@ -55,7 +55,7 @@ lint:
     - taplo@0.9.3
     - terrascan@1.19.1
     - trivy@0.54.1
-    - trufflehog@3.81.8
+    - trufflehog@3.81.9
     - trunk-toolbox@0.3.2
     - yamllint@1.35.1
 
