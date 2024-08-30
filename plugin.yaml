@@ -54,7 +54,8 @@ lint:
     - svgo@3.3.2
     - taplo@0.9.3
     - terrascan@1.19.1
-    - trivy@0.54.1
+    # Disabled until filesystem scanner initialize error resolved.
+    # - trivy@0.54.1
     - trufflehog@3.81.9
     - trunk-toolbox@0.3.2
     - yamllint@1.35.1
