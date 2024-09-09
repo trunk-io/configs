@@ -17,8 +17,8 @@ lint:
     - black@24.8.0
     - buf-lint@1.31.0!
     - buildifier@7.3.1
-    - cfnlint@1.12.3
-    - checkov@3.2.245
+    - cfnlint@1.12.4
+    - checkov@3.2.246
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -38,15 +38,15 @@ lint:
     - prettier@3.3.3
     - prisma@5.19.1
     - pylint@3.2.7
-    - renovate@38.67.5
+    - renovate@38.70.0
     - rubocop@1.39.0
-    - ruff@0.6.3
+    - ruff@0.6.4
     - rustfmt@1.68.2
     - semgrep@1.86.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@2.10.1
-    - sql-formatter@15.4.1
+    - sql-formatter@15.4.2
     - stylelint@16.9.0:
         packages:
           - stylelint-config-standard-scss@13.1.0
