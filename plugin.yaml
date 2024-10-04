@@ -12,13 +12,13 @@ runtimes:
 lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
-    - actionlint@1.7.2
+    - actionlint@1.7.3
     - bandit@1.7.10
     - black@24.8.0
     - buf-lint@1.31.0!
     - buildifier@7.3.1
-    - cfnlint@1.15.1
-    - checkov@3.2.255
+    - cfnlint@1.15.2
+    - checkov@3.2.256
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -32,13 +32,13 @@ lint:
     - markdown-link-check@3.12.2
     - mypy@1.11.2
     - nancy@1.0.46
-    - osv-scanner@1.8.5
+    - osv-scanner@1.9.0
     - oxipng@9.1.2
     - pragma-once
     - prettier@3.3.3
     - prisma@5.20.0
     - pylint@3.3.1
-    - renovate@38.98.0
+    - renovate@38.106.4
     - rubocop@1.39.0
     - ruff@0.6.8
     - rustfmt@1.68.2
@@ -89,5 +89,5 @@ actions:
 
 tools:
   enabled:
-    - gh@2.57.0
-    - gt@1.4.5
+    - gh@2.58.0
+    - gt@1.4.6
