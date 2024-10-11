@@ -14,11 +14,11 @@ lint:
   enabled:
     - actionlint@1.7.3
     - bandit@1.7.10
-    - black@24.8.0
+    - black@24.10.0
     - buf-lint@1.31.0!
     - buildifier@7.3.1
     - cfnlint@1.16.0
-    - checkov@3.2.256
+    - checkov@3.2.257
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -38,15 +38,15 @@ lint:
     - prettier@3.3.3
     - prisma@5.20.0
     - pylint@3.3.1
-    - renovate@38.109.0
+    - renovate@38.115.1
     - rubocop@1.39.0
-    - ruff@0.6.8
+    - ruff@0.6.9
     - rustfmt@1.68.2
     - semgrep@1.90.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@2.10.1
-    - sql-formatter@15.4.2
+    - sql-formatter@15.4.3
     - stylelint@16.9.0:
         packages:
           - stylelint-config-standard-scss@13.1.0
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.82.6
+    - trufflehog@3.82.7
     - trunk-toolbox@0.4.1
     - yamllint@1.35.1
 
