@@ -90,4 +90,5 @@ actions:
 tools:
   enabled:
     - gh@2.58.0
+    - grpcui@1.4.1
     - gt@1.4.6
