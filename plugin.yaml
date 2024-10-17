@@ -87,7 +87,26 @@ actions:
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
 
+downloads:
+  - name: trunk-analytics-cli
+    downloads:
+      - os:
+          linux: unknown-linux
+          macos: apple-darwin
+        cpu:
+          x86_64: x86_64
+          arm_64: aarch64
+        url: https://github.com/trunk-io/analytics-cli/releases/download/${version}/trunk-analytics-cli-${cpu}-${os}.tar.gz
 tools:
+  definitions:
+    - name: trunk-analytics-cli
+      download: trunk-analytics-cli
+      known_good_version: 0.5.32
+      shims: [trunk-analytics-cli]
+      health_checks:
+        - command: trunk-analytics-cli --version
+          parse_regex: trunk-analytics-cli ${semver}
   enabled:
     - gh@2.58.0
     - gt@1.4.6
+    - trunk-analytics-cli@0.5.32
