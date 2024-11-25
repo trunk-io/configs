@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.83.6
+    - trufflehog@3.83.7
     - trunk-toolbox@0.5.3
     - yamllint@1.35.1
 
@@ -110,4 +110,4 @@ tools:
     - gh@2.62.0
     - grpcui@1.4.1
     - gt@1.4.8
-    - trunk-analytics-cli@0.5.40
+    - trunk-analytics-cli@0.6.2
