@@ -13,39 +13,39 @@ lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
     - actionlint@1.7.4
-    - bandit@1.7.10
+    - bandit@1.8.0
     - black@24.10.0
     - buf-lint@1.31.0!
     - buildifier@7.3.1
-    - cfnlint@1.19.0
-    - checkov@3.2.296
+    - cfnlint@1.20.1
+    - checkov@3.2.321
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
     - eslint@8.56.0
     - git-diff-check
     - gofmt@1.20.4
-    - golangci-lint@1.62.0
+    - golangci-lint@1.62.2
     - hadolint@2.12.1-beta
     - isort@5.13.2
-    - markdownlint@0.42.0
+    - markdownlint@0.43.0
     - markdown-link-check@3.13.6
     - mypy@1.13.0
     - nancy@1.0.46
     - osv-scanner@1.9.1
     - oxipng@9.1.2
     - pragma-once
-    - prettier@3.3.3
+    - prettier@3.4.1
     - prisma@5.22.0
     - pylint@3.3.1
-    - renovate@39.16.0
+    - renovate@39.32.0
     - rubocop@1.39.0
-    - ruff@0.7.3
+    - ruff@0.8.0
     - rustfmt@1.68.2
-    - semgrep@1.96.0
+    - semgrep@1.97.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
-    - sort-package-json@2.10.1
+    - sort-package-json@2.12.0
     - sql-formatter@15.4.6
     - stylelint@16.10.0:
         packages:
@@ -56,8 +56,8 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.83.7
-    - trunk-toolbox@0.5.3
+    - trufflehog@3.84.1
+    - trunk-toolbox@0.5.4
     - yamllint@1.35.1
 
   # Sourcing repos will have these configs available to applicable linters
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk-analytics-cli ${semver}
   enabled:
-    - gh@2.62.0
+    - gh@2.63.0
     - grpcui@1.4.1
     - gt@1.4.8
     - trunk-analytics-cli@0.6.2
