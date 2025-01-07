@@ -75,7 +75,7 @@ lint:
         - configs/.shellcheckrc
         - configs/.sqlfluff
         - configs/.stylelintrc.js
-        - configs/svgo.config.js
+        - configs/svgo.config.mjs
         - configs/.yamllint.yaml
 
 # By sourcing this plugin, repos will enable these actions
