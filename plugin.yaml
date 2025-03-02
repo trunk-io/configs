@@ -17,8 +17,8 @@ lint:
     - black@25.1.0
     - buf-lint@1.31.0!
     - buildifier@8.0.3
-    - cfnlint@1.25.1
-    - checkov@3.2.372
+    - cfnlint@1.26.1
+    - checkov@3.2.377
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -27,7 +27,7 @@ lint:
     - gofmt@1.20.4
     - golangci-lint@1.64.5
     - hadolint@2.12.1-beta
-    - isort@6.0.0
+    - isort@6.0.1
     - markdownlint@0.44.0
     - markdown-link-check@3.13.6
     - mypy@1.15.0
@@ -35,18 +35,18 @@ lint:
     - osv-scanner@1.9.2
     - oxipng@9.1.4
     - pragma-once
-    - prettier@3.5.1
+    - prettier@3.5.2
     - prisma@6.4.1
     - pylint@3.3.4
-    - renovate@39.176.4
+    - renovate@39.182.3
     - rubocop@1.39.0
     - ruff@0.9.7
     - rustfmt@1.68.2
-    - semgrep@1.109.0
+    - semgrep@1.110.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
-    - sort-package-json@2.14.0
-    - sql-formatter@15.4.10
+    - sort-package-json@2.15.0
+    - sql-formatter@15.4.11
     - stylelint@16.14.1:
         packages:
           - stylelint-config-standard-scss@14.0.0
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.88.12
+    - trufflehog@3.88.13
     - trunk-toolbox@0.5.4
     - yamllint@1.35.1
 
@@ -110,4 +110,4 @@ tools:
     - gh@2.67.0
     - grpcui@1.4.2
     - gt@1.5.3
-    - trunk-analytics-cli@0.6.19
+    - trunk-analytics-cli@0.7.0
