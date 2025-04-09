@@ -38,7 +38,7 @@ lint:
     - prettier@3.5.3
     - prisma@6.5.0
     - pylint@3.3.6
-    - renovate@39.233.2
+    - renovate@39.238.1
     - rubocop@1.39.0
     - ruff@0.11.3
     - rustfmt@1.68.2
@@ -101,11 +101,11 @@ tools:
   definitions:
     - name: trunk-analytics-cli
       download: trunk-analytics-cli
-      known_good_version: 0.5.32
+      known_good_version: 0.7.6
       shims: [trunk-analytics-cli]
       health_checks:
         - command: trunk-analytics-cli --version
-          parse_regex: trunk-analytics-cli ${semver}
+          parse_regex: trunk flakytests ${semver}
   enabled:
     - gh@2.69.0
     - grpcui@1.4.3
