@@ -17,8 +17,8 @@ lint:
     - black@25.1.0
     - buf-lint@1.31.0!
     - buildifier@8.0.3
-    - cfnlint@1.33.1
-    - checkov@3.2.403
+    - cfnlint@1.34.0
+    - checkov@3.2.405
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -38,7 +38,7 @@ lint:
     - prettier@3.5.3
     - prisma@6.6.0
     - pylint@3.3.6
-    - renovate@39.238.1
+    - renovate@39.248.2
     - rubocop@1.39.0
     - ruff@0.11.5
     - rustfmt@1.68.2
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.88.23
+    - trufflehog@3.88.24
     - trunk-toolbox@0.5.4
     - yamllint@1.37.0
 
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk flakytests ${semver}
   enabled:
-    - gh@2.69.0
+    - gh@2.70.0
     - grpcui@1.4.3
     - gt@1.6.1
-    - trunk-analytics-cli@0.7.6
+    - trunk-analytics-cli@0.7.7
