@@ -18,7 +18,7 @@ lint:
     - buf-lint@1.31.0!
     - buildifier@8.2.0
     - cfnlint@1.34.2
-    - checkov@3.2.414
+    - checkov@3.2.416
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -37,7 +37,7 @@ lint:
     - pragma-once
     - prettier@3.5.3
     - prisma@6.7.0
-    - pylint@3.3.6
+    - pylint@3.3.7
     - renovate@40.0.6
     - rubocop@1.39.0
     - ruff@0.11.8
@@ -56,9 +56,9 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.88.26
+    - trufflehog@3.88.28
     - trunk-toolbox@0.5.4
-    - yamllint@1.37.0
+    - yamllint@1.37.1
 
   # Sourcing repos will have these configs available to applicable linters
   exported_configs:
@@ -110,4 +110,4 @@ tools:
     - gh@2.72.0
     - grpcui@1.4.3
     - gt@1.6.1
-    - trunk-analytics-cli@0.7.9
+    - trunk-analytics-cli@0.7.10
