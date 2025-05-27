@@ -4,8 +4,8 @@ required_trunk_version: ">=1.7.1-beta.9"
 # Applicable linters and actions will run with these runtime versions
 runtimes:
   enabled:
-    - go@1.21.0
-    - node@20.11.0
+    - go@1.24.3
+    - node@22.16.0
     - python@3.10.8
     - ruby@3.1.4
 
@@ -101,7 +101,7 @@ tools:
   definitions:
     - name: trunk-analytics-cli
       download: trunk-analytics-cli
-      known_good_version: 0.7.6
+      known_good_version: 0.8.1
       shims: [trunk-analytics-cli]
       health_checks:
         - command: trunk-analytics-cli --version
