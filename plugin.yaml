@@ -17,8 +17,8 @@ lint:
     - black@25.1.0
     - buf-lint@1.31.0!
     - buildifier@8.2.0
-    - cfnlint@1.35.3
-    - checkov@3.2.435
+    - cfnlint@1.35.4
+    - checkov@3.2.436
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -36,13 +36,13 @@ lint:
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.5.3
-    - prisma@6.8.2
+    - prisma@6.9.0
     - pylint@3.3.7
-    - renovate@40.36.2
+    - renovate@40.42.2
     - rubocop@1.39.0
     - ruff@0.11.12
     - rustfmt@1.68.2
-    - semgrep@1.123.0
+    - semgrep@1.124.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@3.2.1
@@ -109,5 +109,5 @@ tools:
   enabled:
     - gh@2.74.0
     - grpcui@1.4.3
-    - gt@1.6.2
+    - gt@1.6.4
     - trunk-analytics-cli@0.9.1
