@@ -16,9 +16,9 @@ lint:
     - bandit@1.8.3
     - black@25.1.0
     - buf-lint@1.31.0!
-    - buildifier@8.2.0
-    - cfnlint@1.35.3
-    - checkov@3.2.435
+    - buildifier@8.2.1
+    - cfnlint@1.35.4
+    - checkov@3.2.440
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -36,17 +36,17 @@ lint:
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.5.3
-    - prisma@6.8.2
+    - prisma@6.9.0
     - pylint@3.3.7
-    - renovate@40.36.2
+    - renovate@40.51.0
     - rubocop@1.39.0
-    - ruff@0.11.12
+    - ruff@0.11.13
     - rustfmt@1.68.2
-    - semgrep@1.123.0
+    - semgrep@1.125.0
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@3.2.1
-    - sql-formatter@15.6.2
+    - sql-formatter@15.6.4
     - stylelint@16.20.0:
         packages:
           - stylelint-config-standard-scss@15.0.1
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.88.35
+    - trufflehog@3.89.1
     - trunk-toolbox@0.5.4
     - yamllint@1.37.1
 
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk flakytests ${semver}
   enabled:
-    - gh@2.74.0
+    - gh@2.74.1
     - grpcui@1.4.3
-    - gt@1.6.2
-    - trunk-analytics-cli@0.9.1
+    - gt@1.6.4
+    - trunk-analytics-cli@0.9.2
