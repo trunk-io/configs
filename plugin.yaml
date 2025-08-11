@@ -38,7 +38,7 @@ lint:
     - prettier@3.6.2
     - prisma@6.13.0
     - pylint@3.3.7
-    - renovate@41.56.0
+    - renovate@41.59.0
     - rubocop@1.39.0
     - ruff@0.12.7
     - rustfmt@1.68.2
@@ -47,7 +47,7 @@ lint:
     - shfmt@3.6.0
     - sort-package-json@3.4.0
     - sql-formatter@15.6.6
-    - stylelint@16.23.0:
+    - stylelint@16.23.1:
         packages:
           - stylelint-config-standard-scss@15.0.1
           - stylelint-config-clean-order@7.0.0
