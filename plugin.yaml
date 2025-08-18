@@ -38,11 +38,11 @@ lint:
     - prettier@3.6.2
     - prisma@6.14.0
     - pylint@3.3.8
-    - renovate@41.71.1
+    - renovate@41.74.0
     - rubocop@1.39.0
     - ruff@0.12.7
     - rustfmt@1.68.2
-    - semgrep@1.131.0
+    - semgrep@1.132.1
     - shellcheck@0.10.0
     - shfmt@3.6.0
     - sort-package-json@3.4.0
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.90.4
+    - trufflehog@3.90.5
     - trunk-toolbox@0.5.4
     - yamllint@1.37.1
 
