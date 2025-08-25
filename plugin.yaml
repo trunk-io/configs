@@ -38,9 +38,9 @@ lint:
     - prettier@3.6.2
     - prisma@6.14.0
     - pylint@3.3.8
-    - renovate@41.82.1
+    - renovate@41.82.4
     - rubocop@1.39.0
-    - ruff@0.12.9
+    - ruff@0.12.10
     - rustfmt@1.68.2
     - semgrep@1.132.1
     - shellcheck@0.11.0
@@ -110,4 +110,4 @@ tools:
     - gh@2.78.0
     - grpcui@1.4.3
     - gt@1.6.8
-    - trunk-analytics-cli@0.10.6
+    - trunk-analytics-cli@0.10.7
