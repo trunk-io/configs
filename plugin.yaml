@@ -18,7 +18,7 @@ lint:
     - buf-lint@1.31.0!
     - buildifier@8.2.1
     - cfnlint@1.39.1
-    - checkov@3.2.469
+    - checkov@3.2.470
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -36,20 +36,20 @@ lint:
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.6.2
-    - prisma@6.15.0
+    - prisma@6.16.0
     - pylint@3.3.8
-    - renovate@41.97.5
+    - renovate@41.99.11
     - rubocop@1.39.0
-    - ruff@0.12.12
+    - ruff@0.13.0
     - rustfmt@1.68.2
-    - semgrep@1.135.0
+    - semgrep@1.136.0
     - shellcheck@0.11.0
     - shfmt@3.6.0
     - sort-package-json@3.4.0
-    - sql-formatter@15.6.8
-    - stylelint@16.23.1:
+    - sql-formatter@15.6.9
+    - stylelint@16.24.0:
         packages:
-          - stylelint-config-standard-scss@15.0.1
+          - stylelint-config-standard-scss@16.0.0
           - stylelint-config-clean-order@7.0.0
     - svgo@4.0.0
     - taplo@0.10.0
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk flakytests ${semver}
   enabled:
-    - gh@2.78.0
+    - gh@2.79.0
     - grpcui@1.4.3
     - gt@1.6.8
-    - trunk-analytics-cli@0.10.9
+    - trunk-analytics-cli@0.10.10
