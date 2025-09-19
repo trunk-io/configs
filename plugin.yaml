@@ -18,7 +18,7 @@ lint:
     - buf-lint@1.31.0!
     - buildifier@8.2.1
     - cfnlint@1.39.1
-    - checkov@3.2.470
+    - checkov@3.2.471
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -36,9 +36,9 @@ lint:
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.6.2
-    - prisma@6.16.1
+    - prisma@6.16.2
     - pylint@3.3.8
-    - renovate@41.107.0
+    - renovate@41.116.7
     - rubocop@1.39.0
     - ruff@0.13.0
     - rustfmt@1.68.2
@@ -109,5 +109,5 @@ tools:
   enabled:
     - gh@2.79.0
     - grpcui@1.4.3
-    - gt@1.6.8
-    - trunk-analytics-cli@0.10.10
+    - gt@1.7.0
+    - trunk-analytics-cli@0.10.11
