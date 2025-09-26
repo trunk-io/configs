@@ -26,23 +26,23 @@ lint:
     - git-diff-check
     - gofmt@1.20.4
     - golangci-lint@1.64.8
-    - hadolint@2.13.1
+    - hadolint@2.14.0
     - isort@6.0.1
     - markdownlint@0.45.0
     - markdown-link-check@3.13.7
     - mypy@1.18.2
-    - nancy@1.0.51
+    - nancy@1.0.52
     - osv-scanner@2.2.2
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.6.2
     - prisma@6.16.2
     - pylint@3.3.8
-    - renovate@41.118.1
+    - renovate@41.130.1
     - rubocop@1.39.0
     - ruff@0.13.1
     - rustfmt@1.68.2
-    - semgrep@1.137.0
+    - semgrep@1.137.1
     - shellcheck@0.11.0
     - shfmt@3.6.0
     - sort-package-json@3.4.0
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk flakytests ${semver}
   enabled:
-    - gh@2.79.0
+    - gh@2.80.0
     - grpcui@1.4.3
     - gt@1.7.0
     - trunk-analytics-cli@0.10.11
