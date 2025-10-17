@@ -12,13 +12,13 @@ runtimes:
 lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
-    - actionlint@1.7.7
+    - actionlint@1.7.8
     - bandit@1.8.6
     - black@25.9.0
     - buf-lint@1.31.0!
     - buildifier@8.2.1
-    - cfnlint@1.40.1
-    - checkov@3.2.477
+    - cfnlint@1.40.2
+    - checkov@3.2.484
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -27,18 +27,18 @@ lint:
     - gofmt@1.20.4
     - golangci-lint@1.64.8
     - hadolint@2.14.0
-    - isort@6.1.0
+    - isort@7.0.0
     - markdownlint@0.45.0
-    - markdown-link-check@3.13.7
+    - markdown-link-check@3.14.1
     - mypy@1.18.2
     - nancy@1.0.52
     - osv-scanner@2.2.3
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.6.2
-    - prisma@6.17.0
-    - pylint@3.3.9
-    - renovate@41.144.1
+    - prisma@6.17.1
+    - pylint@4.0.1
+    - renovate@41.149.2
     - rubocop@1.39.0
     - ruff@0.14.0
     - rustfmt@1.68.2
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.1
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.90.8
+    - trufflehog@3.90.11
     - trunk-toolbox@0.5.4
     - yamllint@1.37.1
 
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk flakytests ${semver}
   enabled:
-    - gh@2.81.0
+    - gh@2.82.0
     - grpcui@1.4.3
-    - gt@1.7.1
-    - trunk-analytics-cli@0.11.2
+    - gt@1.7.2
+    - trunk-analytics-cli@0.11.4
