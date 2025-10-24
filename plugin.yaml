@@ -18,7 +18,7 @@ lint:
     - buf-lint@1.31.0!
     - buildifier@8.2.1
     - cfnlint@1.40.2
-    - checkov@3.2.484
+    - checkov@3.2.487
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -36,9 +36,9 @@ lint:
     - oxipng@9.1.5
     - pragma-once
     - prettier@3.6.2
-    - prisma@6.17.1
-    - pylint@4.0.1
-    - renovate@41.151.1
+    - prisma@6.18.0
+    - pylint@4.0.2
+    - renovate@41.158.0
     - rubocop@1.39.0
     - ruff@0.14.1
     - rustfmt@1.68.2
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk flakytests ${semver}
   enabled:
-    - gh@2.82.0
+    - gh@2.82.1
     - grpcui@1.4.3
-    - gt@1.7.2
-    - trunk-analytics-cli@0.11.4
+    - gt@1.7.4
+    - trunk-analytics-cli@0.11.5
