@@ -13,12 +13,12 @@ lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
     - actionlint@1.7.10
-    - bandit@1.9.2
-    - black@25.12.0
+    - bandit@1.9.4
+    - black@26.3.0
     - buf-lint@1.31.0!
     - buildifier@8.2.1
-    - cfnlint@1.43.1
-    - checkov@3.2.497
+    - cfnlint@1.46.0
+    - checkov@3.2.507
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -27,38 +27,38 @@ lint:
     - gofmt@1.20.4
     - golangci-lint@2.7.2
     - hadolint@2.14.0
-    - isort@7.0.0
-    - markdownlint@0.47.0
+    - isort@8.0.1
+    - markdownlint@0.48.0
     - markdown-link-check@3.14.2
     - mypy@1.19.1
     - nancy@1.0.52
     - osv-scanner@2.3.1
     - oxipng@10.0.0
     - pragma-once
-    - prettier@3.7.4
-    - prisma@7.2.0
-    - pylint@4.0.4
-    - renovate@42.69.2
+    - prettier@3.8.1
+    - prisma@7.4.2
+    - pylint@4.0.5
+    - renovate@43.59.2
     - rubocop@1.39.0
-    - ruff@0.14.10
+    - ruff@0.15.5
     - rustfmt@1.68.2
-    - semgrep@1.146.0
+    - semgrep@1.154.0
     - shellcheck@0.11.0
     - shfmt@3.6.0
-    - sort-package-json@3.6.0
-    - sql-formatter@15.6.12
-    - stylelint@16.26.1:
+    - sort-package-json@3.6.1
+    - sql-formatter@15.7.2
+    - stylelint@17.4.0:
         packages:
-          - stylelint-config-standard-scss@16.0.0
-          - stylelint-config-clean-order@8.0.0
-    - svgo@4.0.0
+          - stylelint-config-standard-scss@17.0.0
+          - stylelint-config-clean-order@8.0.1
+    - svgo@4.0.1
     - taplo@0.10.0
     - terrascan@1.19.9
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
     - trufflehog@3.92.4
     - trunk-toolbox@0.5.4
-    - yamllint@1.37.1
+    - yamllint@1.38.0
 
   # Sourcing repos will have these configs available to applicable linters
   exported_configs:
