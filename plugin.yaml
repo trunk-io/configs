@@ -25,9 +25,9 @@ lint:
     - eslint@8.56.0
     - git-diff-check
     - gofmt@1.20.4
-    - golangci-lint@2.7.2
     - hadolint@2.14.0
     - isort@8.0.1
+    - golangci-lint2@2.0.0
     - markdownlint@0.48.0
     - markdown-link-check@3.14.2
     - mypy@1.19.1
@@ -101,13 +101,13 @@ tools:
   definitions:
     - name: trunk-analytics-cli
       download: trunk-analytics-cli
-      known_good_version: 0.8.1
+      known_good_version: 0.12.5
       shims: [trunk-analytics-cli]
       health_checks:
         - command: trunk-analytics-cli --version
-          parse_regex: trunk flakytests ${semver}
+          parse_regex: trunk-analytics-cli ${semver}
   enabled:
     - gh@2.83.2
     - grpcui@1.4.3
     - gt@1.7.14
-    - trunk-analytics-cli@0.12.1
+    - trunk-analytics-cli@0.12.5
