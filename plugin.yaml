@@ -25,6 +25,7 @@ lint:
     - eslint@8.56.0
     - git-diff-check
     - gofmt@1.20.4
+    - golangci-lint2@2.0.0
     - hadolint@2.14.0
     - isort@8.0.1
     - markdownlint@0.48.0
