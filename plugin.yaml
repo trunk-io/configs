@@ -101,7 +101,7 @@ tools:
   definitions:
     - name: trunk-analytics-cli
       download: trunk-analytics-cli
-      known_good_version: 0.8.1
+      known_good_version: 0.12.5
       shims: [trunk-analytics-cli]
       health_checks:
         - command: trunk-analytics-cli --version
@@ -110,4 +110,4 @@ tools:
     - gh@2.83.2
     - grpcui@1.4.3
     - gt@1.7.14
-    - trunk-analytics-cli@0.12.1
+    - trunk-analytics-cli@0.12.5
