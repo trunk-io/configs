@@ -12,42 +12,42 @@ runtimes:
 lint:
   # By sourcing this plugin, repos will enable these linters
   enabled:
-    - actionlint@1.7.10
+    - actionlint@1.7.12
     - bandit@1.9.4
-    - black@26.3.0
+    - black@26.3.1
     - buf-lint@1.31.0!
-    - buildifier@8.2.1
-    - cfnlint@1.46.0
-    - checkov@3.2.507
+    - buildifier@8.5.1
+    - cfnlint@1.49.3
+    - checkov@3.2.525
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
     - eslint@8.56.0
     - git-diff-check
     - gofmt@1.20.4
-    - golangci-lint2@2.0.0
+    - golangci-lint2@2.11.4
     - hadolint@2.14.0
     - isort@8.0.1
     - markdownlint@0.48.0
     - markdown-link-check@3.14.2
-    - mypy@1.19.1
-    - nancy@1.0.52
-    - osv-scanner@2.3.1
-    - oxipng@10.0.0
+    - mypy@1.20.2
+    - nancy@1.2.0
+    - osv-scanner@2.3.5
+    - oxipng@10.1.1
     - pragma-once
-    - prettier@3.8.1
-    - prisma@7.4.2
+    - prettier@3.8.3
+    - prisma@7.8.0
     - pylint@4.0.5
-    - renovate@43.59.2
+    - renovate@43.142.0
     - rubocop@1.39.0
-    - ruff@0.15.5
+    - ruff@0.15.12
     - rustfmt@1.68.2
-    - semgrep@1.154.0
+    - semgrep@1.161.0
     - shellcheck@0.11.0
     - shfmt@3.6.0
     - sort-package-json@3.6.1
-    - sql-formatter@15.7.2
-    - stylelint@17.4.0:
+    - sql-formatter@15.7.3
+    - stylelint@17.9.0:
         packages:
           - stylelint-config-standard-scss@17.0.0
           - stylelint-config-clean-order@8.0.1
@@ -56,8 +56,8 @@ lint:
     - terrascan@1.19.9
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.92.4
-    - trunk-toolbox@0.5.4
+    - trufflehog@3.95.2
+    - trunk-toolbox@0.7.0
     - yamllint@1.38.0
 
   # Sourcing repos will have these configs available to applicable linters
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk-analytics-cli ${semver}
   enabled:
-    - gh@2.83.2
+    - gh@2.91.0
     - grpcui@1.4.3
-    - gt@1.7.14
-    - trunk-analytics-cli@0.12.5
+    - gt@1.8.5
+    - trunk-analytics-cli@0.12.8
