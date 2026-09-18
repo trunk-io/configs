@@ -16,9 +16,9 @@ lint:
     - bandit@1.9.4
     - black@26.5.1
     - buf-lint@1.31.0!
-    - buildifier@8.5.1
-    - cfnlint@1.56.0
-    - checkov@3.3.16
+    - buildifier@10.0.1
+    - cfnlint@1.57.0
+    - checkov@3.3.19
     - clang-format@17.0.1
     - clang-tidy@17.0.1
     - clippy@1.71.1
@@ -32,17 +32,17 @@ lint:
     - markdown-link-check@3.15.0
     - mypy@2.3.1
     - nancy@2.1.0
-    - osv-scanner@2.5.1
+    - osv-scanner@2.6.0
     - oxipng@10.2.1
     - pragma-once
-    - prettier@3.9.6
-    - prisma@8.0.0-rc.13
+    - prettier@3.9.8
+    - prisma@8.0.0-rc.15
     - pylint@4.0.8
-    - renovate@44.66.1
+    - renovate@44.97.6
     - rubocop@1.39.0
-    - ruff@0.16.6
+    - ruff@0.16.8
     - rustfmt@1.68.2
-    - semgrep@1.176.1
+    - semgrep@1.177.0
     - shellcheck@0.11.0
     - shfmt@3.6.0
     - sort-package-json@4.0.0
@@ -56,7 +56,7 @@ lint:
     - terrascan@1.19.9
     # Disabled until filesystem scanner initialize error resolved.
     # - trivy@0.54.1
-    - trufflehog@3.97.4
+    - trufflehog@3.97.5
     - trunk-toolbox@0.7.0
     - yamllint@1.38.0
 
@@ -107,7 +107,7 @@ tools:
         - command: trunk-analytics-cli --version
           parse_regex: trunk-analytics-cli ${semver}
   enabled:
-    - gh@2.100.0
+    - gh@2.101.0
     - grpcui@1.5.4
     - gt@1.8.6
     - trunk-analytics-cli@0.15.4
